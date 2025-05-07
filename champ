@@ -68,7 +68,7 @@
       statusText.textContent = "📤 Uploading photo...";
 
       // Upload to Google Drive via Apps Script Web App
-      fetch("PASTE_YOUR_GOOGLE_WEB_APP_URL_HERE", {
+      fetch("https://script.google.com/macros/s/AKfycbxoVcYbuN-qzpUEeSaWoHwflD63H3yedYlw-TH0C9j1Rq0_OrM5jaMfzEdAcdDzdwsGbA/exec", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
